@@ -35,7 +35,7 @@ setup(
     description="flaskplatform imports project systeminfo and displays platform information",
     entry_points={
         'console_scripts': [
-            'flaskplatform=flaskplatform.cli:main',
+            'flaskrun=flaskplatform.run',
         ],
     },
     install_requires=requirements,
