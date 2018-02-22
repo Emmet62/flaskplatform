@@ -13,10 +13,33 @@ flaskplatform
         :target: https://flaskplatform.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
 
-
-
+-----------------------------------------------------------------------------------
 
 flaskplatform imports project systeminfo and displays platform information
+
+Please ensure the systeminfo module has been installed. Available at:
+	https://github.com/Emmet62/systeminfo.git
+
+Once the flaskplatform application is installed, please navigate to 
+~/flaskplatform/flaskplatform
+
+You should see a python file called run.py
+
+Please run the following command:
+	$ python run.py
+
+Alternatively, you can use:
+	$ export FLASK_APP=run.py
+	$ flask run
+
+Once either of these commands have been ran, you should see the below message:
+	* Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+
+The platform information of the machine the flask app is running on should then be displayed at 
+http://127.0.0.1:5000/
+
+-----------------------------------------------------------------------------------
+
 
 
 * Free software: MIT license
